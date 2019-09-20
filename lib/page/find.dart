@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 
 class Find extends StatelessWidget {
-  List list = [
-    {'name': '空间', 'img': 'images/skin_icon_discovery_qzone.png'},
-    {},
-    {'name': '小程序', 'img': 'images/skin_icon_discovery_mini_app.png'},
-    {'name': '扫一扫', 'img': 'images/add_contacts_scan.png'},
-    {'name': '小游戏', 'img': 'images/skin_icon_discovery_mini_game.png'},
-  ];
-
   @override
   Widget build(BuildContext context) {
+    List list = [
+      {'name': '空间', 'img': 'images/skin_icon_discovery_qzone.png'},
+      {},
+      {'name': '小程序', 'img': 'images/skin_icon_discovery_mini_app.png'},
+      {'name': '扫一扫', 'img': 'images/add_contacts_scan.png'},
+      {'name': '小游戏', 'img': 'images/skin_icon_discovery_mini_game.png'},
+    ];
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
