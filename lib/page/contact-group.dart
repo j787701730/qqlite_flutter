@@ -1,46 +1,32 @@
 import 'package:flutter/material.dart';
 
-class ContactFriend extends StatefulWidget {
+class ContactGroup extends StatefulWidget {
   @override
-  _ContactFriendState createState() => _ContactFriendState();
+  _ContactGroupState createState() => _ContactGroupState();
 }
 
-class _ContactFriendState extends State<ContactFriend> with AutomaticKeepAliveClientMixin {
+class _ContactGroupState extends State<ContactGroup> with AutomaticKeepAliveClientMixin {
   @override
   bool get wantKeepAlive => true;
 
   List contactList = [
     {
-      'name': '我的好友',
+      'name': '我创建的群聊',
       'show': false,
       'list': [
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '找小姐姐群', 'avatar': 'images/yu.webp'},
+        {'name': '找大姐姐群', 'avatar': 'images/yu.webp'},
       ]
     },
     {
-      'name': '我的好友',
+      'name': '我加入的群聊',
       'show': false,
       'list': [
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-      ]
-    },
-    {
-      'name': '我的好友',
-      'show': false,
-      'list': [
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '福州会所群', 'avatar': 'images/yu.webp'},
+        {'name': '杭州会所群', 'avatar': 'images/yu.webp'},
+        {'name': '三明会所群', 'avatar': 'images/yu.webp'},
+        {'name': '泉州会所群', 'avatar': 'images/yu.webp'},
+        {'name': '上海会所群', 'avatar': 'images/yu.webp'},
       ]
     },
   ];
@@ -81,7 +67,7 @@ class _ContactFriendState extends State<ContactFriend> with AutomaticKeepAliveCl
                           ),
                         ),
                         Container(
-                          child: Text('0/${item['list'].length}',
+                          child: Text('${item['list'].length}',
                               style: TextStyle(fontSize: 12, color: Color(0xff878B99))),
                         )
                       ],
@@ -116,13 +102,13 @@ class _ContactFriendState extends State<ContactFriend> with AutomaticKeepAliveCl
                                       '${list['name']}',
                                       style: TextStyle(fontSize: 16, color: Color(0xff03081A)),
                                     ),
-                                    Container(
-                                      height: 4,
-                                    ),
-                                    Text('${list['text']}',
-                                        maxLines: 1,
-                                        overflow: TextOverflow.ellipsis,
-                                        style: TextStyle(fontSize: 12, color: Color(0xff878B99)))
+//                                    Container(
+//                                      height: 4,
+//                                    ),
+//                                    Text('${list['text']}',
+//                                        maxLines: 1,
+//                                        overflow: TextOverflow.ellipsis,
+//                                        style: TextStyle(fontSize: 12, color: Color(0xff878B99)))
                                   ],
                                 ))
                           ],

@@ -1,7 +1,9 @@
 import 'package:extended_nested_scroll_view/extended_nested_scroll_view.dart';
 import 'package:flutter/material.dart' hide NestedScrollView;
 import 'package:flutter/material.dart' as prefix0;
+import 'package:qqlite_flutter/page/contact-equipment.dart';
 import 'package:qqlite_flutter/page/contact-friend.dart';
+import 'package:qqlite_flutter/page/contact-group.dart';
 
 class Contact extends StatefulWidget {
   @override
@@ -24,15 +26,7 @@ class _ContactState extends State<Contact> with SingleTickerProviderStateMixin {
   ];
 
   PageController _pageController;
-  var tabView = [
-    ContactFriend(),
-    Container(
-      child: Text('群聊'),
-    ),
-    Container(
-      child: Text('设备'),
-    ),
-  ];
+  var tabView = [ContactFriend(), ContactGroup(), ContactEquipment()];
 
   @override
   void initState() {
@@ -167,11 +161,26 @@ class _ContactState extends State<Contact> with SingleTickerProviderStateMixin {
                         padding: EdgeInsets.only(top: 6),
                         child: Container(
                           height: 50,
-                          padding: EdgeInsets.only(left: 15),
+                          padding: EdgeInsets.only(left: 15, right: 6),
                           color: Colors.white,
-                          child: Align(
-                            alignment: Alignment.centerLeft,
-                            child: Text('新朋友'),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: <Widget>[
+                              Align(
+                                alignment: Alignment.centerLeft,
+                                child: Text(
+                                  '新朋友',
+                                  style: TextStyle(fontSize: 16, color: Colors.black),
+                                ),
+                              ),
+                              Container(
+                                child: Icon(
+                                  Icons.chevron_right,
+                                  size: 30,
+                                  color: Color(0xff878B99),
+                                ),
+                              )
+                            ],
                           ),
                         ),
                       )
