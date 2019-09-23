@@ -73,7 +73,7 @@ class Personal extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
-                        '余文杰',
+                        '过雨',
                         style: TextStyle(fontSize: 16, color: Color(0xff03081A)),
                       ),
                       Container(

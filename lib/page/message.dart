@@ -37,7 +37,7 @@ class _DetailMsg extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Text(
-                      '余文杰',
+                      '过雨',
                       style: TextStyle(fontSize: 16, color: Color(0xff03081A)),
                     ),
                     Container(
@@ -95,7 +95,7 @@ class _MessageState extends State<Message> {
         title: Container(
           child: Image.asset(
             'images/logo.png',
-            height: 30,
+            height: 26,
           ),
         ),
         centerTitle: false,

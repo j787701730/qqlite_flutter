@@ -14,33 +14,33 @@ class _ContactFriendState extends State<ContactFriend> with AutomaticKeepAliveCl
       'name': '我的好友',
       'show': false,
       'list': [
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
       ]
     },
     {
       'name': '我的好友',
       'show': false,
       'list': [
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
       ]
     },
     {
       'name': '我的好友',
       'show': false,
       'list': [
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
-        {'name': '余文杰', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
+        {'name': '过雨', 'avatar': 'images/yu.webp', 'text': '万寿无疆'},
       ]
     },
   ];
